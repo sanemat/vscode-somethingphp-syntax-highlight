@@ -1,0 +1,25 @@
+{
+    "name": "somethingphp-syntax-highlight",
+    "displayName": "somethingphp-syntax-highlight",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "somethingphp",
+            "aliases": ["somethingphp", "somethingphp"],
+            "extensions": [".html",".sql",".txt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "somethingphp",
+            "scopeName": "somethingphp",
+            "path": "./syntaxes/somethingphp.tmLanguage.json"
+        }]
+    }
+}
