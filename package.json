@@ -1,8 +1,18 @@
 {
-    "name": "somethingphp-syntax-highlight",
+    "name": "@sanemat/somethingphp-syntax-highlight",
     "displayName": "somethingphp-syntax-highlight",
     "description": "",
     "version": "0.0.1",
+    "author": "Matt <ogataken@gmail.com> (Sanemat) (Murahashi Kenichi)",
+    "bugs": {
+        "url": "https://github.com/sanemat/vscode-somethingphp-syntax-highlight/issues"
+      },
+    "homepage": "https://github.com/sanemat/vscode-somethingphp-syntax-highlight#readme",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/sanemat/vscode-somethingphp-syntax-highlight.git"
+    },
     "engines": {
         "vscode": "^1.66.0"
     },
@@ -21,5 +31,6 @@
             "scopeName": "somethingphp",
             "path": "./syntaxes/somethingphp.tmLanguage.json"
         }]
-    }
+    },
+    "scripts": {"test": "exit 1"}
 }
