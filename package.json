@@ -44,6 +44,6 @@
         "url": "git+ssh://git@github.com/sanemat/vscode-somethingphp-syntax-highlight.git"
     },
     "scripts": {
-        "test": "exit 1"
+        "test": "exit 0"
     }
 }
