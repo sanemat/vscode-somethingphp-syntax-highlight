@@ -44,6 +44,8 @@
         "url": "git+ssh://git@github.com/sanemat/vscode-somethingphp-syntax-highlight.git"
     },
     "scripts": {
+        "fmt": "npm run fmt:prettier",
+        "fmt:prettier": "prettier --write",
         "test": "exit 0"
     },
     "devDependencies": {
