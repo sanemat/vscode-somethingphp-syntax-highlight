@@ -46,7 +46,8 @@
     "scripts": {
         "fmt": "npm run fmt:prettier",
         "fmt:prettier": "prettier --write",
-        "test": "exit 0"
+        "lint:prettier": "prettier --check",
+        "test": "npm run lint:prettier ."
     },
     "devDependencies": {
         "prettier": "^2.6.2"
