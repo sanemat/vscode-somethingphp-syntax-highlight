@@ -10,26 +10,11 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [
-            {
-                "id": "somethingphp",
-                "aliases": [
-                    "somethingphp",
-                    "somethingphp"
-                ],
-                "extensions": [
-                    ".html",
-                    ".sql",
-                    ".txt"
-                ],
-                "configuration": "./language-configuration.json"
-            }
-        ],
         "grammars": [
             {
-                "language": "somethingphp",
-                "scopeName": "somethingphp",
-                "path": "./syntaxes/somethingphp.tmLanguage.json"
+                "scopeName": "text.html.somethingphp.injection",
+                "path": "./syntaxes/somethingphp-in-html.json",
+                "injectTo": ["source.html"]
             }
         ]
     },
