@@ -14,7 +14,7 @@
             {
                 "scopeName": "text.html.somethingphp.injection",
                 "path": "./syntaxes/somethingphp-in-html.json",
-                "injectTo": ["source.html"]
+                "injectTo": ["text.html.derivative"]
             }
         ]
     },
