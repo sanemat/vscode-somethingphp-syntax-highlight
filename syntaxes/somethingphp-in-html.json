@@ -11,8 +11,10 @@
   "repository": {
     "tag-output": {
       "begin": "<!--#=",
-      "0": {
-        "name": "keyword.control.tag-output-begin.somethingphp"
+      "beginCaptures": {
+        "0": {
+          "name": "keyword.control.tag-output-begin.somethingphp"
+        }
       },
       "end": "#-->",
       "endCaptures": {
