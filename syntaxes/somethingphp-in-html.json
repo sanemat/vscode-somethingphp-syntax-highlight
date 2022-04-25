@@ -6,9 +6,32 @@
   "patterns": [
     {
       "include": "#tag-output"
+    },
+    {
+      "include": "#tag-code"
     }
   ],
   "repository": {
+    "tag-code": {
+      "begin": "<!--#",
+      "beginCaptures": {
+        "0": {
+          "name": "keyword.control.tag-code-begin.somethingphp"
+        }
+      },
+      "end": "#-->",
+      "endCaptures": {
+        "0": {
+          "name": "keyword.control.tag-code-end.somethingphp"
+        }
+      },
+      "name": "meta.embedded.tag-code.somethingphp",
+      "patterns": [
+        {
+          "include": "source.php"
+        }
+      ]
+    },
     "tag-output": {
       "begin": "<!--#=",
       "beginCaptures": {
